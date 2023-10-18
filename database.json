@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Rebecca Robison",
+      "email": "Robison2023@gmail.com",
+      "cohort": 67
+    },
+    {
+      "id": 2,
+      "fullName": "Sara Bates",
+      "email": "Bates2023@gmail.com",
+      "cohort": 67
+    },
+    {
+      "id": 3,
+      "fullName": "Jeffrey Weisel",
+      "email": "Weisel2023@gmail.com",
+      "cohort": 67
+    },
+    {
+      "id": 4,
+      "fullName": "Kyle Roldan",
+      "email": "Roldan2023@gmail.com",
+      "cohort": 67
+    },
+    {
+      "id": 5,
+      "fullName": "Ely Dorado",
+      "email": "Dorado2023@gmail.com",
+      "cohort": 62
+    },
+    {
+      "id": 6,
+      "fullName": "Devery Page",
+      "email": "Page2023@gmail.com",
+      "cohort": 52
+    },
+    {
+      "email": "m@email.com",
+      "fullName": "Mikayla",
+      "cohort": 67,
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Sally's Interests",
+      "body": "Learn how to manipulate Sally's interests with flexbox",
+      "date": "8-15-2023",
+      "userId": 1,
+      "topicId": 2,
+      "userLikesId": 1
+    },
+    {
+      "id": 2,
+      "title": "Dynamite Duo",
+      "body": "Learn how to use developer tools and the DOM",
+      "date": "8-20-2023",
+      "userId": 2,
+      "topicId": 1,
+      "userLikesId": 2
+    },
+    {
+      "id": 3,
+      "title": "Deshawn's Dog Walking",
+      "body": "Learn how to add state to HTML",
+      "date": "8-30-2023",
+      "userId": 3,
+      "topicId": 4,
+      "userLikesId": 3,
+      "topic": {
+        "id": 4,
+        "topic": "React"
+      },
+      "user": {
+        "id": 3,
+        "fullName": "Jeffrey Weisel",
+        "email": "Weisel2023@gmail.com",
+        "cohort": 67
+      }
+    },
+    {
+      "id": 4,
+      "title": "Fox y Cat",
+      "body": "Learn how to use fetch",
+      "date": "9-10-2023",
+      "userId": 4,
+      "topicId": 3,
+      "userLikesId": 4
+    },
+    {
+      "id": 6,
+      "title": "Honey Raes Repairs",
+      "body": "Learn how to use React hooks",
+      "date": "9-20-2023",
+      "userId": 6,
+      "topicId": 5,
+      "userLikesId": 6
+    }
+  ],
+  "userLikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "postId": 4
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "postId": 6
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Functions"
+    },
+    {
+      "id": 2,
+      "topic": "Flexbox"
+    },
+    {
+      "id": 3,
+      "topic": "API"
+    },
+    {
+      "id": 4,
+      "topic": "React"
+    },
+    {
+      "id": 5,
+      "topic": "Fetch"
+    },
+    {
+      "id": 6,
+      "topic": "State"
+    }
+  ]
+}
